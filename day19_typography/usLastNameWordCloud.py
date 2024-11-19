@@ -60,7 +60,7 @@ plt.tight_layout()
 
 
 fig.text(0.05, 0.95, 'The 1,000 Most Common Last Names in the US', color='#0016A3', fontsize=25)
-fig.text(0.025, 0.025, 'Source: US Census Bureau 2020 Census Data', fontsize=9, color='#0016A3')
+fig.text(0.025, 0.025, 'Source: US Census Bureau 2010 Census Data', fontsize=9, color='#0016A3')
 fig.text(0.7, 0.075, 'Andrew Staroscik', fontsize=20, color='#0016A3')
 fig.text(0.705, 0.035, '#30DayMapChallenge', fontsize=15, color='#0016A3')
 
