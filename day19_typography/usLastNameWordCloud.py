@@ -10,8 +10,10 @@ from rasterio.features import geometry_mask
 fontPath = './data/fonts//Domine-Medium.ttf'
 
 # get the names
-names = pd.read_csv('./data/Top1000.csv', skiprows=[0])
-names['name'] = names['name'].apply(lambda x: x.title()) # switch from all caps
+names = pd.read_csv('./data/Top1000.csv', skiprows=[0,1, 1003, 1004, 1005, 1006])
+names['name'] = names['SURNAME'].apply(lambda x: x.title()) # switch from all caps
+names.rename(columns={'FREQUENCY (COUNT)':'count'}, inplace=True)
+names['count'] = names['count'].str.replace(',', '').astype(int)
 
 # get the us shape
 world = gp.read_file('./data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp')
