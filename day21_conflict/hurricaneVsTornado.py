@@ -47,8 +47,8 @@ cbar.set_xlabel('<-- More Tornado                  More Hurricane  -->', fontsiz
 
 fig.text( 0.15, .95, 'Google Search Trends Hurricane vs Tornado (Nov 23 - Nov 24)', fontsize=titleFont.get_size(), fontweight=titleFont.get_weight(), fontname=titleFont.get_name(), color= '#454567')
 fig.text( 0.15, 0.25, 'Data Source: Google', fontsize=sourceTextFont.get_size(), fontname=sourceTextFont.get_name(), weight=sourceTextFont.get_weight(), color='#444444')
-fig.text(0.75, 0.26, 'Andrew Staroscik',fontsize=nameTextFont.get_size(), fontname=nameTextFont.get_name(),  weight=nameTextFont.get_weight(), color='#666666')
-fig.text( 0.76, 0.23, '#30DayMapChallenge', fontsize=challengeTextFont.get_size(), fontname=challengeTextFont.get_name(), weight=challengeTextFont.get_weight(), color='#676767')
+fig.text(0.75, 0.1, 'Andrew Staroscik',fontsize=nameTextFont.get_size(), fontname=nameTextFont.get_name(),  weight=nameTextFont.get_weight(), color='#666666')
+fig.text( 0.76, 0.08, '#30DayMapChallenge', fontsize=challengeTextFont.get_size(), fontname=challengeTextFont.get_name(), weight=challengeTextFont.get_weight(), color='#676767')
 
 ax.set_axis_off()
 plt.tight_layout()
