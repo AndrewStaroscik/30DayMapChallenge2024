@@ -14,6 +14,6 @@ https://staroscik.com/circlesmap/
 
 Base map: Natural Earth
 
-Population data: UN
+Population data: UN *** NOTE - This was a huge file and is not present in the repo ***
 
 Land area data: World Bank
