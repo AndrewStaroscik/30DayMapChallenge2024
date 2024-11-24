@@ -11,7 +11,7 @@ from matplotlib.font_manager import FontProperties
 import urllib.request, urllib.error, urllib.parse, json
 import lxml
 
-ak = '<enter a acs api key here'
+ak = '<enter a acs api key heregit ad'
 
 states = gp.read_file('./data/usInsetMap/usInsetMap.shp') # this is a Alberts projection that I made with AK and HI placed in "insets" below the lower 48
 minx, miny, maxx, maxy = states.total_bounds
